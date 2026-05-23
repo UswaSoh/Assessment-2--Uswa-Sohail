@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>BookHaven</title>
+
+<link rel="stylesheet"href="style.css">
+<link rel="preconnect"href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lora&family=Montserrat:wght@500&display=swap"rel="stylesheet">
+</head>
+
+<body>
+<main>
+<header>
+<div class="logo">BOOKHAVEN</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="genres.html">Genres</a>
+<a href="tracker.html">Tracker</a>
+<a href="about.html">About</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Find Your Next Chapter</h1>
+
+<p>Search, collect and track books.</p>
+
+<input id="searchInput"placeholder="Search books...">
+</section>
+
+<section class="genre-section">
+<button class="genre" onclick="filterGenre('Classic Fiction')">Classic Fiction</button>
+<button class="genre"onclick="filterGenre('Fantasy')">Fantasy</button>
+<button class="genre" onclick="filterGenre('Mystery')">Mystery</button>
+<button class="genre"onclick="filterGenre('Dystopian')">Dystopian</button>
+</section>
+
+<section class="books" id="bookContainer"></section>
+</section>
+</main>
+
+<script src="bookData.js"></script>
+<script src="script.js"></script>
+</body>
+
+<footer class="main-footer">
+<div class="footer-column">
+<h3>Book Haven</h3>
+<p>Interactive reading platform for discovering books, tracking progress and exploring genres.
+<br>Design and Created by Uswa Sohail</p>
+</div>
+
+<div class="footer-column">
+<h3>Quick Links</h3>
+<a href="index.html">Home</a>
+<a href="genres.html">Genres</a>
+<a href="tracker.html">Tracker</a>
+<a href="about.html">About</a>
+</div>
+
+<div class="footer-column"><h3>Genres</h3>
+<p>Classic Fiction</p>
+<p>Fantasy</p>
+<p>Mystery</p>
+<p>Dystopian</p>
+</div>
+
+<div class="footer-column">
+<h3>Theme</h3>
+<p>Woody Library Style</p>
+<p>Olive Green Palette</p>
+<p>Immersive Reading Experience</p>
+</div>
+
+</footer>
+</html>

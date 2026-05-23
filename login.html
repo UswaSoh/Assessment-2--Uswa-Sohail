@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>BookHaven Login</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lora:wght@400;500&family=Montserrat:wght@400;600&display=swap"
+rel="stylesheet">
+
+</head>
+    <body>
+        <div class="background-overlay">
+        <div class="book-container">
+        <div class="book-cover">
+        <div class="page-effect"></div>
+    <h1> BookHaven</h1>
+    <p class="subtitle"> Your personal reading sanctuary </p>
+
+<form>
+
+    <label>Email</label>
+
+    <input
+        type="email"
+        placeholder="Enter email" required>
+
+    <label>Password</label>
+
+    <input
+        type="password"
+        placeholder="Enter password" required>
+       
+    <button
+        type="button"
+        onclick="window.location.href='index.html'"> Open Library </button>
+    <form id="loginForm">
+
+
+</form>
+
+<script src="login.js"></script>
+
+</form>
+
+
+<p>
+New Reader?
+</p>
+
+<button
+onclick="openSignup()">
+Create Account
+</button>
+
+</div>
+</p>
+</div>
+</div>
+</div>
+
+<script>
+
+function openSignup(){
+
+window.location.href =
+"./signup.html";
+}
+
+</script>
+</body>
+
+</html>
