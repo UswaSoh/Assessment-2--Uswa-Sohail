@@ -77,7 +77,7 @@ JSON.stringify(book)
 
 alert(
 book.title +
-" Added to tracker"
+" added to tracker"
 );
 
 }
